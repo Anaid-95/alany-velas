@@ -180,7 +180,7 @@ h2 {
 
 /*Página de nosotros*/
 .nosotros {
-  display: flex;
+  display: grid;
   justify-content: space-between;
   padding: 40px;
   width: 80%;
