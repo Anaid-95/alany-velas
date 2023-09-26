@@ -117,11 +117,11 @@ h2 {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-}
 
-.productos img {
-  max-width: 400px;
-  padding: 1rem;
+  img {
+    max-width: 400px;
+    padding: 1rem;
+}
 }
 
 .box img {
@@ -176,6 +176,7 @@ h2 {
   padding: 40px;
   line-height: 0;
   text-align: center;
+  position: absolute;
 }
 
 /*Página de nosotros*/
