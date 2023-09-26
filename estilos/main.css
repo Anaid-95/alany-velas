@@ -117,11 +117,10 @@ h2 {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-
-  img {
-    max-width: 400px;
-    padding: 1rem;
 }
+.productos img {
+  max-width: 400px;
+  padding: 1rem;
 }
 
 .box img {
@@ -180,16 +179,15 @@ h2 {
 
 /*Página de nosotros*/
 .nosotros {
-  display: grid;
+  display: flex;
   justify-content: space-between;
   padding: 40px;
   width: 80%;
   margin: 15px auto;
-
-  img {
-    width: 381px;
-    height: 476px;
-  }
+}
+.nosotros img {
+  width: 381px;
+  height: 476px;
 }
 
 /*formulario*/
@@ -319,12 +317,12 @@ input[type=submit]:hover {
     display: grid;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     padding: 10px;
-    img {
-      width: 181px;
-      height: 276px;
-    }
+  }
+  .nosotros img {
+    width: 181px;
+    height: 276px;
   }
   form {
     width: 400px;
